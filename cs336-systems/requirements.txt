@@ -1,0 +1,6 @@
+regex
+torch~=2.2.1
+numpy
+humanfriendly
+# Includes a bugfix for recent NCCL versions
+HolisticTraceAnalysis @ git+https://github.com/nelson-liu/HolisticTraceAnalysis.git@comm_kernel_fix
