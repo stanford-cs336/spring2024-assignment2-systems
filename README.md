@@ -51,5 +51,5 @@ Visually, it should look something like:
 ``` sh
 conda create -n cs336_systems python=3.10 --yes
 conda activate cs336_systems
-pip install -e ./cs336-basics/ ./cs336-systems/'[test]'
+pip install -e ./cs336-basics/ -e ./cs336-systems/'[test]'
 ```
