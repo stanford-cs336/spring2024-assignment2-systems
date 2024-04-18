@@ -16,7 +16,7 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 ### Added
 
-- handout: added a short question about variability on problem
+- handout: added a short question about variability on problem benchmarking_script
 
 ### Changed
 
