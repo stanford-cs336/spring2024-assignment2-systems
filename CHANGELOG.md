@@ -10,7 +10,11 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 ### Changed
 
+- code: remove `humanfriendly` from requirements.txt, add `matplotlib`
+
 ### Fixed
+
+- handout: fixed cut off text in problem memory_profiling (a)
 
 ## [0.0.1] - 2024-04-17
 
