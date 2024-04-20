@@ -59,6 +59,7 @@ class ToyModelWithTiedWeights(nn.Module):
         self.fc3 = nn.Linear(50, 10, bias=False)
         self.fc4 = nn.Linear(10, 50, bias=False)
         self.fc5 = nn.Linear(50, 5, bias=False)
+        self.fc4.weight = self.fc2.weight
         self.relu = nn.ReLU()
 
     def forward(self, x):
