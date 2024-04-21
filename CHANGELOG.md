@@ -10,6 +10,9 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 ### Fixed
 
+- handout: clarify that `ddp_bucketed_benchmarking` doesn't require the full
+  grid of runs.
+
 ## [0.0.3] - 2024-04-21
 
 ### Added
