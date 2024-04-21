@@ -13,11 +13,17 @@ All changes we make to the assignment code or PDF will be documented in this fil
 - code: remove `humanfriendly` from requirements.txt, add `matplotlib`
 - handout: modify problem `distributed_communication_multi_node` to specify that
   multinode measurements should be 2x1, 2x2, and 2x3.
+- handout: clarify that `torch.cuda.synchronize()` is necessary for timing
+  collective communication ops, even when they are called with `async_op=False`.
 
 ### Fixed
 
 - handout: fixed cut off text in problem memory_profiling (a)
 - handout: fixed mismatch between slurm config and description text in section 3.2
+- code: fix `ToyModelWithTiedWeights` to actually tie weights.
+- handout: fix typo in bucketed DDP test command, should be `pytest tests/test_ddp.py` 
+- handout: fix deliverable of `ddp_overlap_individual_parameters_benchmarking`
+  (a) to not ask for communication time, only end-to-end step time.
 
 ## [0.0.1] - 2024-04-17
 
