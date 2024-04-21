@@ -17,7 +17,7 @@ def log_softmax(x, dim=-1):
 def cross_entropy(inputs, targets):
     negative_log_softmax_logits = -log_softmax(inputs)
     return torch.mean(
-        torch.gather(negative_log_softmax_logits, 1, targets.unsqueeze(-1))
+        torch.gather(negative_log_softmax_logits, -1, targets.unsqueeze(-1))
     )
 
 
