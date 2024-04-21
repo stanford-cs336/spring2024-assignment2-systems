@@ -2,9 +2,15 @@
 
 All changes we make to the assignment code or PDF will be documented in this file.
 
-
-
 ## [unreleased] - yyyy-mm-dd
+
+### Added
+
+### Changed
+
+### Fixed
+
+## [0.0.3] - 2024-04-21
 
 ### Added
 
