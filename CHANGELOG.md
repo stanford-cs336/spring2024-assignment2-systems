@@ -22,6 +22,7 @@ All changes we make to the assignment code or PDF will be documented in this fil
 ### Fixed
 
 - handout: remove outdated mention of a problem that doesn't exist on the assignment
+- handout: fix Slurm environment variables in examples.
 
 ## [0.0.3] - 2024-04-21
 
@@ -43,7 +44,7 @@ All changes we make to the assignment code or PDF will be documented in this fil
 - handout: fix typo in bucketed DDP test command, should be `pytest tests/test_ddp.py` 
 - handout: fix deliverable of `ddp_overlap_individual_parameters_benchmarking`
   (a) to not ask for communication time, only end-to-end step time.
-- handout: clarify that analysis in `optimizer_state_sharding_accounting` (a)
+- handout: clarify analysis in `optimizer_state_sharding_accounting` (a).
 
 ## [0.0.1] - 2024-04-17
 
