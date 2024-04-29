@@ -19,6 +19,8 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 ### Changed
 
+- code: remove try-finally blocks in DDP tests.
+
 ### Fixed
 
 - handout: remove outdated mention of a problem that doesn't exist on the assignment
