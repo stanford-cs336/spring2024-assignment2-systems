@@ -25,6 +25,7 @@ All changes we make to the assignment code or PDF will be documented in this fil
 
 - handout: remove outdated mention of a problem that doesn't exist on the assignment
 - handout: fix Slurm environment variables in examples.
+- handout: clarify assumptions in `ddp_bucketed_benchmarking` (b).
 
 ## [0.0.3] - 2024-04-21
 
