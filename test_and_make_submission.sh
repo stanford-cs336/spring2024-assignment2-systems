@@ -32,6 +32,7 @@ zip -r "$output_file" . \
     -x '*.log' \
     -x '*.json' \
     -x '*.out' \
-    -x '*.err'
+    -x '*.err' \
+    -x '.git*'
 
 echo "All files have been compressed into $output_file"
